@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <style>
+        /* Style for the gallery container */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            padding: 20px;
+        }
+
+        /* Style for each image */
+        .gallery img {
+            max-width: 100%;
+            height: auto;
+        }
+        h1{
+          align-content: center;
+          align-items: center;
+          text-align: center;
+        }
+        img{
+          display: flex;
+        }
+        .gallery{
+          display: flex;
+          height: 450px;
+          width: 450px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Image Gallery</h1>
+    <div class="links">
+       <a href="Desciption_List.html">Description Page</a>
+      <a href="Lists.html">List Page</a>
+      <a href="Assignment.html">Assignment Page</a>
+      <a href="Gallery.html">Gallery Page</a>
+    </div>
+
+    <div class="gallery">
+        <img src="247.jpg" alt="Example Image 1">
+        <img src="tools.jfif" alt="Example Image 2">
+        <img src="customer.jpg" alt="Example Image 3">
+    </div>
+</body>
+</html>

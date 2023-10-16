@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Details</title>
+  <link rel="stylesheet" href="form.css">
+  <style>
+     body{
+  font-family: Arial;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+form{
+  background-color: darkcyan;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+
+  width: 500px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px 5px lightblue;
+}
+h1{
+  text-align: center;
+  color: maroon;
+}
+label{
+  font-weight: bold;
+}
+input[type="text"], input[type="email"], input[type="password"]{
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 100%;
+}
+input[type="submit"]{
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;]
+}
+input[type="submit"]:hover{
+  background-color: red;
+}
+
+
+  </style>
+  <ul>
+      <li><a href="Forms.html">Forms</a></li>
+      <li><a href="iframe.html">Maps</a></li>
+    <li><a href="Desciption_List.html">Description Page</a></li>
+        <li><a href="Assignment.html">Assignment Page</a></li>
+    </ul>
+
+</head>
+<body>
+<form action="">
+  <h1>Student Details</h1>
+  <label for="fname">First Name</label>
+  <input type="text" id="fname" placeholder="Enter First Name"><br><br>
+
+   <label for="lname">Last Name</label>
+  <input type="text" id="lname" placeholder="Enter Last Name"><br><br>
+
+  <label for="email">Email</label>
+  <input type="email" id="email" placeholder="Enter Email"><br><br>
+
+  <label for="pass">Password</label>
+  <input type="password" id="pass" placeholder="Password"><br><br>
+
+  <p>Choose Your Favorite Game</p>
+  <input type="checkbox" id="Football">
+  <label for="Football"> Football <br>
+
+    <input type="checkbox" id="Basketball">
+      <label for="Basketball"> Basketball <br>
+
+        <input type="checkbox" id="Tennis">
+        <label for="Tennis"> Tennis <br>
+
+        <input type="checkbox" id="Hockey">
+        <label for="Hockey"> Hockey <br>
+
+    <p>Choose Your Favorite Programming Language? </p>
+  <input type="radio" id="PHP">
+          <label for="PHP">PHP</label><br>
+
+    <input type="radio" id="python">
+           <label for="python">Python</label><br>
+
+  <input type="radio" id="c">
+           <label for="c">C</label><br>
+
+  <input type="radio" id="c#">
+           <label for="c#">C#</label><br>
+
+          Nationality:
+          <select name="" id=""><br>
+            <option value="">Uganda</option>
+            <option value="">Ethiopia</option>
+            <option value="">Algeria</option>
+            <option value="">Tunisia</option>
+              </select><br><br>
+
+          <label for="student">Describe yourself: </label>
+          <textarea name="" id="student" cols="30" rows="5" placeholder="Type Something..."></textarea><br><br>
+
+          <input type="submit" value="Submit">
+
+</form>
+    </body>
+</html>
